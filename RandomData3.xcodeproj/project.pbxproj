@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9247201236EF09B00053CF8 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9247200236EF09B00053CF8 /* Cryptor.swift */; };
+		F9247202236EF09B00053CF8 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9247200236EF09B00053CF8 /* Cryptor.swift */; };
+		F9247203236EF09B00053CF8 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9247200236EF09B00053CF8 /* Cryptor.swift */; };
 		F990FA66236D7BBE008DF849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA65236D7BBE008DF849 /* AppDelegate.swift */; };
 		F990FA68236D7BBE008DF849 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA67236D7BBE008DF849 /* SceneDelegate.swift */; };
 		F990FA6A236D7BBE008DF849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA69236D7BBE008DF849 /* ContentView.swift */; };
@@ -15,6 +18,15 @@
 		F990FA72236D7BBF008DF849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F990FA70236D7BBF008DF849 /* LaunchScreen.storyboard */; };
 		F990FA7D236D7BBF008DF849 /* RandomData3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA7C236D7BBF008DF849 /* RandomData3Tests.swift */; };
 		F990FA88236D7BBF008DF849 /* RandomData3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA87236D7BBF008DF849 /* RandomData3UITests.swift */; };
+		F990FA96236D7C66008DF849 /* RandomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA95236D7C66008DF849 /* RandomData.swift */; };
+		F990FA97236D7C66008DF849 /* RandomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA95236D7C66008DF849 /* RandomData.swift */; };
+		F990FA98236D7C66008DF849 /* RandomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA95236D7C66008DF849 /* RandomData.swift */; };
+		F990FA9A236D7CF8008DF849 /* AsBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA99236D7CF8008DF849 /* AsBytes.swift */; };
+		F990FA9B236D7CF8008DF849 /* AsBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA99236D7CF8008DF849 /* AsBytes.swift */; };
+		F990FA9C236D7CF8008DF849 /* AsBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA99236D7CF8008DF849 /* AsBytes.swift */; };
+		F990FA9F236E5FA9008DF849 /* CryptorCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA9E236E5FA9008DF849 /* CryptorCore.swift */; };
+		F990FAA0236E5FA9008DF849 /* CryptorCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA9E236E5FA9008DF849 /* CryptorCore.swift */; };
+		F990FAA1236E5FA9008DF849 /* CryptorCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990FA9E236E5FA9008DF849 /* CryptorCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F9247200236EF09B00053CF8 /* Cryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptor.swift; sourceTree = "<group>"; };
 		F990FA62236D7BBE008DF849 /* RandomData3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomData3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F990FA65236D7BBE008DF849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F990FA67236D7BBE008DF849 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,10 @@
 		F990FA83236D7BBF008DF849 /* RandomData3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomData3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F990FA87236D7BBF008DF849 /* RandomData3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomData3UITests.swift; sourceTree = "<group>"; };
 		F990FA89236D7BBF008DF849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F990FA95236D7C66008DF849 /* RandomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomData.swift; sourceTree = "<group>"; };
+		F990FA99236D7CF8008DF849 /* AsBytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsBytes.swift; sourceTree = "<group>"; };
+		F990FA9D236E5C90008DF849 /* AppleCryptTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AppleCryptTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F990FA9E236E5FA9008DF849 /* CryptorCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptorCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +96,7 @@
 		F990FA59236D7BBE008DF849 = {
 			isa = PBXGroup;
 			children = (
+				F990FA9D236E5C90008DF849 /* AppleCryptTest.playground */,
 				F990FA64236D7BBE008DF849 /* RandomData3 */,
 				F990FA7B236D7BBF008DF849 /* RandomData3Tests */,
 				F990FA86236D7BBF008DF849 /* RandomData3UITests */,
@@ -106,6 +124,10 @@
 				F990FA70236D7BBF008DF849 /* LaunchScreen.storyboard */,
 				F990FA73236D7BBF008DF849 /* Info.plist */,
 				F990FA6D236D7BBF008DF849 /* Preview Content */,
+				F990FA95236D7C66008DF849 /* RandomData.swift */,
+				F990FA99236D7CF8008DF849 /* AsBytes.swift */,
+				F990FA9E236E5FA9008DF849 /* CryptorCore.swift */,
+				F9247200236EF09B00053CF8 /* Cryptor.swift */,
 			);
 			path = RandomData3;
 			sourceTree = "<group>";
@@ -267,9 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F990FA9F236E5FA9008DF849 /* CryptorCore.swift in Sources */,
 				F990FA66236D7BBE008DF849 /* AppDelegate.swift in Sources */,
 				F990FA68236D7BBE008DF849 /* SceneDelegate.swift in Sources */,
+				F990FA96236D7C66008DF849 /* RandomData.swift in Sources */,
+				F9247201236EF09B00053CF8 /* Cryptor.swift in Sources */,
 				F990FA6A236D7BBE008DF849 /* ContentView.swift in Sources */,
+				F990FA9A236D7CF8008DF849 /* AsBytes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F990FAA0236E5FA9008DF849 /* CryptorCore.swift in Sources */,
+				F990FA97236D7C66008DF849 /* RandomData.swift in Sources */,
+				F9247202236EF09B00053CF8 /* Cryptor.swift in Sources */,
+				F990FA9B236D7CF8008DF849 /* AsBytes.swift in Sources */,
 				F990FA7D236D7BBF008DF849 /* RandomData3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F990FAA1236E5FA9008DF849 /* CryptorCore.swift in Sources */,
+				F990FA98236D7C66008DF849 /* RandomData.swift in Sources */,
+				F9247203236EF09B00053CF8 /* Cryptor.swift in Sources */,
+				F990FA9C236D7CF8008DF849 /* AsBytes.swift in Sources */,
 				F990FA88236D7BBF008DF849 /* RandomData3UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
